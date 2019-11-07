@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/*body {
+  font-family: "Roboto", SansSerif;
+  line-height: 1.4;
+}*/
+
+.heroH3 {
+  font-size: 67px;
+}
+
+.heroH1 {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  /*padding-top: 145px;*/
+}
+
+.heroP {
+  font-size: 27px;
+  padding-right: 200px;
+  padding-left: 200px;
+  /*margin: 15px 0 70px;*/
+}
+
+.heroBtn {
+  background-color: #f3c56c;
+}
+.heroBtn:hover {
+  background-color: #b49060;
+}
+
+.supportH3 {
+  color: #3b464f;
+  letter-spacing: -0.03em;
+  margin-bottom: 15px;
+  font-size: 67px;
+  font-weight: bold;
+}
+
+.supportImg {
+  background: #333 url("../img/support.jpg") no-repeat center center/cover;
+  height: 80vh;
+}
+.colorBlue {
+  background-color: #0be !important;
+  border: #0be;
+}
+.colorBlue:hover {
+  background-color: #008cb4 !important;
+  border: #008cb4;
+}
+
+.yes {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  border-bottom: #0be 3px solid;
+  /*opacity: 0.8;*/
+}
+
+/*.heroText {
+  padding-top: 250px;
+}*/
+
+/*showcase*/
+#showcase2 {
+  background: #333 url("../img/hero.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+#showcase2 .showcase2-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /*padding: 0 2rem;*/
+  /*overlay*/
+  position: absolute;
+  /*when we use the absolute 'position' to ensure our overlay covers the whole area, we need to specify the margins for the top, left, right, bottom by default we set their margins to 0 bcos we dont need any margin but here we need margins on the top bcos of the sticky navbar. So we need to remove the height of the sticky navbar from the top which is 59px */
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.buttonLight {
+  border-color: #fff;
+  color: #fff;
+}
+
+.buttonLight:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #f90;
+}
+
+.buttonBlue {
+  border-color: #fff;
+  color: #fff;
+}
+
+.buttonBlue:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #0dc;
+}
+
+.buttonRed {
+  border-color: #fff;
+  color: #fff;
+}
+
+.buttonRed:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #f53;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image-1 {
+  background-color: #f90;
+  /*background: url("../img/image1.jpg");*/
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background-color: #0dc;
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background-color: #f53;
+  background-size: cover;
+}
+
+.fa {
+  font-size: 55px;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-position: 0 -300px;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+}
+#video-play a {
+  color: #fff;
+}
+
+#page-header {
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#page-header-blog {
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -450px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#about img {
+  margin-top: -50px;
+}
+
+#faq.bg-dark {
+  background: #444;
+  color: #fff;
+}
+#faq.bg-dark .card {
+  border: #444;
+}
+#faq.bg-dark .card button {
+  color: #fff;
+  text-decoration: none;
+}
+#faq.bg-dark .card-body,
+#faq.bg-dark .card-header {
+  background: #333;
+}
+
+.blockquote {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  border-left: white 3px solid;
+}
+
+#footer {
+  background: #343434;
+  color: #fff;
+  /*height: 100px;*/
+}
+#footer2 {
+  background: #282828;
+  color: #fff;
+  height: 100px;
+}
+
+#footer2 p a {
+  color: #0ca;
+  text-decoration: none;
+}
